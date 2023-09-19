@@ -1,0 +1,44 @@
+/* Isabelly Fernandes
+1- 10
+2- Irá imprimir no console até o número 18 se a variável for maior que 18.
+b)Poderia ser usado o splice(i, n); .
+3- 
+*
+**
+***
+****
+
+exercícios de código
+*/
+
+//1-
+const pet = Number(prompt('Qantos pets tu tem?'));
+let nomeDosPet = [];
+    if(pet === 0){
+        console.log("Que pena! Você pode adotar um.");
+    } else{
+        let i = 0;
+        while (i < pet) {
+            nomeDosPet[i] = prompt("DIgite os nomes")
+        i++
+        } 
+    
+  }
+console.log(nomeDosPet);
+
+//2- 
+let arrayOriginal = [10, 20, 30, 40, 50];
+
+function a(valoresDoArray) {
+    valoresDoArray ;
+}console.log(arrayOriginal);
+
+function b(divididoArray){
+divididoArray;
+}console.log(arrayOriginal[0]/10,  arrayOriginal[1]/10 , arrayOriginal[2]/10 , arrayOriginal[3]/10 , arrayOriginal[4]/10);
+   
+function c(novoArray){
+    novoArray = arrayOriginal[0]%2;
+
+}    console.log(novoArray);
+       
