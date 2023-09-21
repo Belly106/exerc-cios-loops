@@ -1,2 +1,2 @@
-# exerc-cios-loops
+# exerc-loops
 loops
